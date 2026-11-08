@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "transcribo",
+  "version": "1.0.0",
+  "description": "Transcribe audio and video files to text with speaker labels from your AI agent, in Spanish and 60 languages in total, up to 4 hours per file.",
+  "author": {
+    "name": "Transcribo",
+    "url": "https://transcribo.es/"
+  },
+  "homepage": "https://transcribo.es/",
+  "repository": "https://github.com/santigamo/transcribo-skill",
+  "license": "MIT",
+  "keywords": ["transcription", "speech-to-text", "audio", "video", "speaker-diarization", "spanish", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "transcribo": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
